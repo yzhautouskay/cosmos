@@ -23,22 +23,30 @@
     },
     "observation.state.joint_positions": {
       "dtype": "float32",
-      "shape": [],
+      "shape": [
+        1
+      ],
       "names": null
     },
     "observation.state.gripper_position": {
       "dtype": "float32",
-      "shape": [],
+      "shape": [
+        1
+      ],
       "names": null
     },
     "action.gripper_position": {
       "dtype": "float32",
-      "shape": [],
+      "shape": [
+        1
+      ],
       "names": null
     },
     "action.joint_position": {
       "dtype": "float32",
-      "shape": [],
+      "shape": [
+        1
+      ],
       "names": null
     },
     "observation.image.wrist_image_left": {
